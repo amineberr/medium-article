@@ -41,13 +41,13 @@ div {
 }
 
 a {
-  background-image: linear-gradient(to bottom, #868477);
+  background-image: linear-gradient(bottom, #868477, #7f732a);
   text-decoration: none;
   font-weight: 550;
 }
 
 a:hover {
-  background-image: linear-gradient(to bottom, #837832);
+  background-image: linear-gradient(bottom, #7f7534, #736507);
 }
 
 .container {
@@ -56,7 +56,7 @@ a:hover {
 }
 
 .banner {
-  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-image: linear-gradient( black, white),url(https://source.unsplash.com/random/1000x500);
   background-size: cover;
   color: white;
   padding: 120px 0;
