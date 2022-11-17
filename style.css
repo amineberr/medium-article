@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
 body {
-  background-color: #FFF4E9 ;
-  font-family: 'Open Sans', sans-serif;
-  color: #2E1F27;
-  font-size: 16px;
-  line-height: 1,5
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
 }
 
 h1, h2 {
-  font-family: 'Varela', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 h1 {
   font-size: 32px;
   line-height: 1;
-  color: #2E1F27;
+  color: #ffffff;
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -26,18 +28,26 @@ h2 {
   color: #854D27;
 }
 
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 div {
   display: block;
 }
 
 a {
-  background-image: linear-gradient(to bottom, #77867F);
+  background-image: linear-gradient(to bottom, #868477);
   text-decoration: none;
   font-weight: 550;
 }
 
 a:hover {
-  background-image: linear-gradient(to bottom, black);
+  background-image: linear-gradient(to bottom, #837832);
 }
 
 .container {
@@ -52,7 +62,12 @@ a:hover {
   padding: 120px 0;
 }
 
-.banner > p {
+.banner h1 {
+  font-size: 38px;
+  color: white;
+}
+
+.banner p {
   font-size: 30px;
   font-style: italic;
   font-weight: lighter;
@@ -75,14 +90,12 @@ a:hover {
 }
 
 @media (max-width: 992) {
-  /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
     width: 700px;
   }
 }
 
 @media (max-width: 768px) {
-  /* Pour un écran < 720px, cette classe CSS s'applique */
   .container {
     width: 500px;
   }
